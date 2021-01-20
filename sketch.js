@@ -50,7 +50,7 @@ function draw() {
   rectMode(CENTER);
   background(0);
   fill("red")
-  rect(width/2,height-25,100,10)
+  rect(width/2,ground.y,100,10)
   rect(width/2-50,650-16,10,75)
   rect(width/2+50,650-16,10,75)
   packageSprite.x= packageBody.position.x 
